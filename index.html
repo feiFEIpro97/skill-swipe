@@ -598,6 +598,7 @@ function buildPrompt(s){
     "如果仓库 README 有更详细的安装说明，请以其为准。";
 }
 function openDetailById(id){ var s = byId[id]; if(s) openDetail(s); }
+window.openDetailById = openDetailById;
 function openDetail(s){
   curId = s.id; curAgent = 0;
   var liked = favs.indexOf(s.id)>=0;
