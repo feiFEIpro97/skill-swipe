@@ -144,10 +144,10 @@ def main():
     print("已有总结 %d，需新增总结 %d（%d 并发，模型 %s）" % (len(existing), len(need), workers, MODEL))
 
     result = dict(existing)
+    failed = []
     if not need:
         print("无新增，跳过 LLM 调用")
     else:
-        failed = []
         with ThreadPoolExecutor(max_workers=workers) as ex:
             futs = {ex.submit(call_llm, s): s for s in need}
             for i, fut in enumerate(as_completed(futs), 1):
