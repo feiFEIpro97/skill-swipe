@@ -144,10 +144,10 @@ def main():
     print("已有总结 %d，需新增总结 %d（%d 并发，模型 %s）" % (len(existing), len(need), workers, MODEL))
 
     result = dict(existing)
-    failed = []
     if not need:
         print("无新增，跳过 LLM 调用")
     else:
+        failed = []
         with ThreadPoolExecutor(max_workers=workers) as ex:
             futs = {ex.submit(call_llm, s): s for s in need}
             for i, fut in enumerate(as_completed(futs), 1):
@@ -157,12 +157,12 @@ def main():
                 else:
                     failed.append(sid)
                 print("  [%d/%d] %s %s" % (i, len(need), sid, "OK" if obj else "FAIL"))
+        if failed:
+            print("失败：%s" % failed, file=sys.stderr)
 
     with open("summary_part_llm.json", "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     print("完成：summary_part_llm.json 共 %d 条" % len(result))
-    if failed:
-        print("失败：%s" % failed, file=sys.stderr)
 
 
 if __name__ == "__main__":
