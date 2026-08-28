@@ -1,0 +1,11 @@
+name = "skillswipe-stats"
+main = "worker.js"
+compatibility_date = "2024-09-01"
+
+# D1 数据库绑定
+# 部署前先创建: wrangler d1 create skillswipe
+# 然后把返回的 database_id 填到下方
+[[d1_databases]]
+binding = "DB"
+database_name = "skillswipe"
+database_id = "<替换为你的 D1 database_id>"

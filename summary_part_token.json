@@ -1,0 +1,112 @@
+{
+  "russelleNVy/three-man-team": {
+    "zhIntro": "结构化 3-agent 开发协作技能：Architect/Builder/Reviewer 三角色分工，manifest 单一配置、交接目录自动维护。",
+    "sellingPoints": [
+      "架构-编码-评审流水线分工",
+      "manifest.md 单一配置源",
+      "角色文件与交接目录自动维护"
+    ],
+    "categories": ["多智能体协作", "开发辅助"],
+    "audience": "开发者，用于用多 agent 流水线分工完成项目",
+    "tokenOptimized": false
+  },
+  "nadimtuhin/claude-token-optimizer": {
+    "zhIntro": "停止让 Claude Code 上下文被旧文档占据：裁剪文档输入，token 用量最高降 90%，让 Claude 聚焦实际代码。",
+    "sellingPoints": [
+      "token 用量最高降 90%",
+      "上下文只留有效代码",
+      "npm 一键安装"
+    ],
+    "categories": ["开发辅助"],
+    "audience": "Claude Code 用户，用于减少长文档占用上下文导致的 token 浪费",
+    "tokenOptimized": true
+  },
+  "ooples/token-optimizer-mcp": {
+    "zhIntro": "Token Optimizer MCP：压缩上下文、保留结论，跨 16 个编码客户端审计每次 token 节省。",
+    "sellingPoints": [
+      "压缩上下文保留结论",
+      "跨 16 个 coding 客户端审计",
+      "MCP 即插即用"
+    ],
+    "categories": ["开发辅助"],
+    "audience": "多客户端开发者，用于审计并减少 coding agent 的 token 消耗",
+    "tokenOptimized": true
+  },
+  "Kulaxyz/token-diet": {
+    "zhIntro": "常驻 token 效率技能：全程裁剪回复/文档/测试/代码/工具调用，平均账单降 31%、输出降 30-81% 而不丢正确性。",
+    "sellingPoints": [
+      "平均省 31% token 账单",
+      "输出降 30-81% 不丢正确性",
+      "一键安装兼容 5 款 agent"
+    ],
+    "categories": ["开发辅助"],
+    "audience": "重度使用 coding agent 的开发者，用于持续压低 token 开销",
+    "tokenOptimized": true
+  },
+  "KinetiNode/claude-fable-5-system-prompt-clean": {
+    "zhIntro": "精简版 Claude Fable 5/Mythos 5 系统提示词：剔除 Claude 专属基础设施，跨模型适用且更省 token。",
+    "sellingPoints": [
+      "提示词精简省 token",
+      "兼容 Claude/ChatGPT/Gemini/DeepSeek/Qwen",
+      "保留原始核心行为"
+    ],
+    "categories": ["开发辅助"],
+    "audience": "自建系统提示词的用户，用于获得省 token 的跨模型版本",
+    "tokenOptimized": true
+  },
+  "Rose22/openlumara": {
+    "zhIntro": "Python 本地优先的轻量 agent 框架：系统提示词最小约 4000 token，模块化、快速、适合本地与 API 使用。",
+    "sellingPoints": [
+      "系统提示词最小约 4000 token",
+      "本地优先、轻量模块化",
+      "支持 WebUI/CLI/MCP"
+    ],
+    "categories": ["AI基础设施与框架"],
+    "audience": "本地 AI 开发者，用于搭建轻量省 token 的 agent 应用",
+    "tokenOptimized": false
+  },
+  "angelnicolasc/graymatter": {
+    "zhIntro": "30 秒给 AI agent 装持久记忆：跨会话上下文压缩回注，保留记忆的同时减少约 90% token 消耗。",
+    "sellingPoints": [
+      "30 秒安装持久记忆",
+      "跨会话上下文保留",
+      "减少约 90% token 消耗"
+    ],
+    "categories": ["AI基础设施与框架"],
+    "audience": "多会话 AI 用户，用于保留跨会话记忆",
+    "tokenOptimized": false
+  },
+  "bassimeledath/dispatch": {
+    "zhIntro": "/dispatch 技能：把会话变成轻量编排器，任务派发给各自拥有完整上下文的后台 agent，有效上下文窗口扩大 10 倍。",
+    "sellingPoints": [
+      "有效上下文窗口扩大 10 倍",
+      "后台并行不占主会话",
+      "单命令触发"
+    ],
+    "categories": ["开发辅助"],
+    "audience": "长任务开发者，用于避免上下文塞满、提升并行处理",
+    "tokenOptimized": true
+  },
+  "styler-ai/ProjectAtlas": {
+    "zhIntro": "Rust 本地仓库智能：SQLite 持久地图引导 agent 直达目标代码，没打开的文件不耗 token。",
+    "sellingPoints": [
+      "仓库地图直达代码省 token",
+      "Rust 高性能本地索引",
+      "MCP 兼容多 coding agent"
+    ],
+    "categories": ["开发辅助"],
+    "audience": "大型代码库开发者，用于让 agent 少读无关文件、省 token",
+    "tokenOptimized": true
+  },
+  "get-zeked/perplexity-super-skills": {
+    "zhIntro": "12 个 Perplexity 超级技能合集：融合 Perplexity Computer 内置技能与 Claude Code 能力的统一技能文件。",
+    "sellingPoints": [
+      "12 个超级技能一次获取",
+      "融合 Perplexity+Claude Code 能力",
+      "单文件统一引用"
+    ],
+    "categories": ["skills精选合集"],
+    "audience": "AI 工具用户，用于一站获取融合版超级技能",
+    "tokenOptimized": false
+  }
+}

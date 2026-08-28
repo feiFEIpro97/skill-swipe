@@ -1,0 +1,48 @@
+name: Weekly Skill Update
+
+on:
+  schedule:
+    # 每周一 03:00 UTC（北京时间周一 11:00）
+    - cron: '0 3 * * 1'
+  workflow_dispatch: {}   # 支持手动触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch skills from GitHub
+        env:
+          # 用 Actions 自带 token 提高限额到 5000/h；不配也能跑（60/h）
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python fetch_skills.py --limit 50 --days 180
+
+      - name: Summarize with DeepSeek
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python summarize_with_llm.py --workers 5
+
+      - name: Merge & inject into index.html
+        run: python summarize_skills.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html skills.json analysis_input.json summary_part_llm.json
+          git add summary_part_*.json 2>/dev/null || true
+          git diff --staged --quiet && { echo "无更新"; exit 0; }
+          git commit -m "chore: weekly skill update ($(date -u +%F))"
+          git push

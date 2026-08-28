@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+partial_skills.jsonl
+detect_report.json
+.panda/
