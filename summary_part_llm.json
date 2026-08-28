@@ -1,0 +1,741 @@
+{
+  "anthropics/skills": {
+    "zhIntro": "Anthropic 官方开源技能仓库：以文件夹形式为 Claude 提供可按需加载的指令与脚本，覆盖文档、数据分析、自动化等专业任务。",
+    "sellingPoints": [
+      "官方出品，Agent Skills 生态标准范例",
+      "覆盖创作、技术、企业流程等成体系技能集",
+      "约 17 万 stars，全球最受关注的技能仓库",
+      "支持 Claude Code、Claude.ai、API 多端使用",
+      "开源（Apache 2.0）可参考复用"
+    ],
+    "category": "AI基础设施与框架",
+    "audience": "开发者，用于学习复用官方技能并扩展 Claude 的专业能力"
+  },
+  "nextlevelbuilder/ui-ux-pro-max-skill": {
+    "zhIntro": "为 AI 编码 Agent 提供专业 UI/UX 设计智能，内置 192 条领域推理规则与可检索样式库，跨多平台生成高质量界面。",
+    "sellingPoints": [
+      "内置 192 条行业推理规则，规范设计决策",
+      "提供 79 种可检索 UI 样式库",
+      "智能生成本地设计系统，提升产出质量",
+      "跨 Claude Code/Codex/Cursor 多平台通用"
+    ],
+    "category": "开发辅助",
+    "audience": "开发者与设计师，用于让 AI 直接产出专业级跨平台 UI/UX 设计"
+  },
+  "DietrichGebert/ponytail": {
+    "zhIntro": "让 AI 编码 Agent 像“最懒的资深开发”一样思考——少写甚至不写代码，输出最简可行、一行即用的实现。",
+    "sellingPoints": [
+      "让 Agent 以“最懒资深开发”的思路少写代码",
+      "坚持极简实现，一行代码即达成效果",
+      "兼容 20+ 主流 Agent 与 CLI",
+      "开源 MIT 许可，可用 npm 安装"
+    ],
+    "category": "开发辅助",
+    "audience": "开发者，用于让编码 Agent 写出更简练、省 token 的最小实现"
+  },
+  "thedotmack/claude-mem": {
+    "zhIntro": "为 AI Agent 提供跨会话持久记忆：自动捕获会话内容、经 AI 压缩后在后续会话注入相关上下文，解决上下文丢失。",
+    "sellingPoints": [
+      "跨会话持久上下文，长任务不丢记忆",
+      "自动捕获会话 + AI 压缩 + 智能回注",
+      "兼容 Claude Code/Codex/Gemini/Copilot 等",
+      "提供 MCP 检索工具与多种配置方案"
+    ],
+    "category": "AI基础设施与框架",
+    "audience": "AI Agent 重度用户与开发者，用于多会话长任务中保持记忆与上下文"
+  },
+  "nexu-io/open-design": {
+    "zhIntro": "开源的 Claude Design 替代品：把编码 Agent 变成设计引擎，本地生成原型、落地页、看板、幻灯片、图像与视频等可交付文件。",
+    "sellingPoints": [
+      "让 coding agent 变身设计引擎，一次生成多种产物",
+      "支持原型/落地页/看板/幻灯片/图视频",
+      "可导出 HTML/PDF/PPTX/MP4 真实文件",
+      "本地优先桌面应用，兼容 20+ CLI 与各家模型"
+    ],
+    "category": "内容创作",
+    "audience": "开发者与设计师，用于让 AI 代理直接产出可交付的设计与原型文件"
+  },
+  "addyosmani/agent-skills": {
+    "zhIntro": "面向生产级工程开发的 Agent Skills 集合：把资深工程师的工作流、质量门槛与最佳实践沉淀为可一键调用的斜杠命令。",
+    "sellingPoints": [
+      "覆盖定义-计划-构建-验证-审查-发布全流程",
+      "内置 24 个技能与 8 条斜杠命令",
+      "沉淀资深工程师质量门槛与最佳实践",
+      "提供 Agent 角色与参考清单，规范开发"
+    ],
+    "category": "开发辅助",
+    "audience": "开发者与工程团队，用于让 AI 遵循生产级开发规范与质量门槛"
+  },
+  "Egonex-AI/Understand-Anything": {
+    "zhIntro": "把任意代码库、知识库或文档转化为可交互知识图谱，支持探索、搜索与直接提问，帮开发者快速理解任何代码。",
+    "sellingPoints": [
+      "任意代码库一键变可交互知识图谱",
+      "支持图谱浏览、搜索与自由提问",
+      "可分析业务逻辑与当前改动影响",
+      "兼容 Claude Code/Codex/Cursor/Copilot 等"
+    ],
+    "category": "开发辅助",
+    "audience": "开发者与架构师，用于快速理解陌生代码库与业务逻辑"
+  },
+  "ComposioHQ/awesome-claude-skills": {
+    "zhIntro": "精选的 Claude Skills 与工具资源清单，按文档、开发、数据分析等类别整理，并含将技能接入 1000+ 应用的实操指引。",
+    "sellingPoints": [
+      "精选社区优质 Claude Skills 与工具资源",
+      "按文档/开发/数据分析等主题分类导航",
+      "提供把技能接入 1000+ 应用的实操指引",
+      "约 7.3 万 stars，社区认可度高"
+    ],
+    "category": "其他",
+    "audience": "AI 爱好者与开发者，用于按主题发现和挑选 Claude 技能"
+  },
+  "ruvnet/ruflo": {
+    "zhIntro": "原创 Agent 元编排框架：部署多智能体群体、协同自主工作流，具备自适应记忆、自学习与 RAG 能力，可构建对话式 AI 系统。",
+    "sellingPoints": [
+      "部署多智能体 swarm，协同编排自主工作流",
+      "内置自适应记忆与自学习智能",
+      "集成 RAG，支持构建对话式 AI 应用",
+      "原生支持 Claude Code/Codex/Hermes 等 Agent"
+    ],
+    "category": "多智能体协作",
+    "audience": "AI 开发者与研究者，用于编排多智能体协同与自主工作流"
+  },
+  "code-yeongyu/oh-my-openagent": {
+    "zhIntro": "面向复杂代码库的一体化 Agent 编排工具（omo/lazycodex）：适配 Codex、OpenCode 等 harness，让编码 Agent 高效处理大型工程。",
+    "sellingPoints": [
+      "专为复杂代码库设计的 agent harness",
+      "适配 Codex/OpenCode 等多 harness 版本",
+      "面向 token 效率优化的编码 Agent",
+      "提供 ultrawork 等高效工作命令"
+    ],
+    "category": "开发辅助",
+    "audience": "开发者，用于在复杂代码库中驾驭 Codex/OpenCode 等编码 Agent"
+  },
+  "shanraisshan/claude-code-best-practice": {
+    "zhIntro": "Claude Code 系统性最佳实践合集：从 vibe coding 走向 agentic engineering，练就完美 Claude。",
+    "sellingPoints": [
+      "6.5万+ 星，GitHub 顶流实践库",
+      "覆盖 Agents/Commands/Skills 全矩阵",
+      "提供编排工作流与实操最佳实践",
+      "适配 Claude Code/Codex/Cursor 等多款工具",
+      "社区持续更新、按标签分门别类"
+    ],
+    "category": "开发辅助",
+    "audience": "AI 编码开发者，用于搭建和优化 agentic 工程工作流。"
+  },
+  "hesreallyhim/awesome-claude-code": {
+    "zhIntro": "Claude Code 精选资源大全，聚合顶级 skills、agents、状态行与开发者工具和插件。",
+    "sellingPoints": [
+      "手工精选，新手与老手皆宜",
+      "覆盖 skills/agents/插件多品类资源",
+      "强调代码质量、安全与原创性"
+    ],
+    "category": "开发辅助",
+    "audience": "Claude Code 用户，用于发掘优质技能、插件与工作流资源。"
+  },
+  "VoltAgent/awesome-openclaw-skills": {
+    "zhIntro": "OpenClaw 官方技能注册表精选合集，5400+ 技能经筛选分类一站检索。",
+    "sellingPoints": [
+      "5400+ 社区技能，海量可选",
+      "从官方 OpenClaw Skills Registry 筛选",
+      "按类别组织整理，便于发现"
+    ],
+    "category": "其他",
+    "audience": "OpenClaw 本地 AI 助手使用者，用于检索、挑选并安装扩展技能。"
+  },
+  "CherryHQ/cherry-studio": {
+    "zhIntro": "AI 生产力工作室：智能对话 + 自主 Agent + 300 余助手，统一接入前沿大模型。",
+    "sellingPoints": [
+      "统一接入多家前沿大模型",
+      "300+ 智能助手与自主 Agent",
+      "智能聊天驱动的生产力工具集"
+    ],
+    "category": "办公提效",
+    "audience": "办公与知识工作者，用于一站式使用多模型与 AI 助手提升效率。"
+  },
+  "sickn33/agentic-awesome-skills": {
+    "zhIntro": "AAS Core：本地优先的 Agent 技能目录控制台，内置 2005+ 技能，Agent 自主选型并校验。",
+    "sellingPoints": [
+      "本地 2005+ 技能目录，离线可用",
+      "Agent 自主选型，校验后生成不可变计划",
+      "提供 CLI、本地 MCP 与 Workbench"
+    ],
+    "category": "AI基础设施与框架",
+    "audience": "基于 Codex/Claude 的开发者，用于本地技能目录发现、选型与栈规划。"
+  },
+  "amruthpillai/reactive-resume": {
+    "zhIntro": "免费开源的简历制作工具，隐私优先、安全可定制、可移植且永久免费。",
+    "sellingPoints": [
+      "开源免费、永久使用",
+      "隐私优先，数据完全自控",
+      "高度可定制、样式丰富"
+    ],
+    "category": "办公提效",
+    "audience": "求职者与职场人士，用于在线创建、更新和分享个人简历。"
+  },
+  "wshobson/agents": {
+    "zhIntro": "多工具适配的 Agentic 插件市场：93 插件、202 个 Agents、181 个技能，一处安装处处可用。",
+    "sellingPoints": [
+      "跨 5+ 主流编码 Agent 通用",
+      "单份源码，多 harness 原生适配",
+      "插件+Agents+技能+命令超全"
+    ],
+    "category": "多智能体协作",
+    "audience": "多工具开发者，用于在 Claude Code/Codex/Cursor 等间统一获取 agent 插件与技能。"
+  },
+  "github/awesome-copilot": {
+    "zhIntro": "GitHub Copilot 社区资源合集：自定义 Agents、指令、技能、钩子与工作流应有尽有。",
+    "sellingPoints": [
+      "社区贡献、持续更新",
+      "覆盖 agents/指令/技能/hooks 全品类",
+      "官网支持全文检索并附学习中心"
+    ],
+    "category": "开发辅助",
+    "audience": "GitHub Copilot 用户，用于探索自定义 Agent、技能与工作流配置。"
+  },
+  "blader/humanizer": {
+    "zhIntro": "去除文本 AI 味的人类化技能：基于反 AI 写作模式改写，保留原意与事实。",
+    "sellingPoints": [
+      "改写后像真人手写，不再 AI 腔",
+      "基于 35 种 Wikipedia 反 AI 写作特征",
+      "不改动事实，并展示改写过程",
+      "纯 Markdown，兼容任意 agent"
+    ],
+    "category": "内容创作",
+    "audience": "内容创作者与写作者，用于让 AI 生成文本读起来更自然、真实。"
+  },
+  "K-Dense-AI/scientific-agent-skills": {
+    "zhIntro": "把任意 AI Agent 变成 AI 科学家的科研技能库：163 个技能 + 100+ 科学数据库。",
+    "sellingPoints": [
+      "163 个经验证的即用科研技能",
+      "覆盖 100+ 生物/化学/医药数据库",
+      "全球 17.5万+ 科研人员使用",
+      "兼容主流 agent 与开放技能标准"
+    ],
+    "category": "数据分析",
+    "audience": "科研人员与生命科学从业者，用于文献分析、药物发现等科研自动化。"
+  },
+  "VoltAgent/awesome-agent-skills": {
+    "zhIntro": "官方团队与社区手工精选的 1000+ Agent Skills 合集，非 AI 批量生成，跨 Claude Code/Codex/Gemini CLI/Cursor 通用。",
+    "sellingPoints": [
+      "手工精选、非 AI 批量灌水的高质量合集",
+      "1000+ 技能，覆盖官方与社区",
+      "按语言/领域分类导航，便于发现",
+      "跨主流 coding agent 通用"
+    ],
+    "categories": [
+      "其他",
+      "开发辅助"
+    ],
+    "audience": "开发者，用于发现和挑选官方/社区高质量 Agent Skills"
+  },
+  "nanocoai/nanoclaw": {
+    "zhIntro": "OpenClaw 的轻量替代：在容器中安全运行 AI 助手，接入 WhatsApp/Telegram/Slack 等消息应用，带记忆与定时任务。",
+    "sellingPoints": [
+      "容器化隔离运行，安全可控",
+      "接入 WhatsApp/Telegram/Slack/Discord 等",
+      "内置记忆与定时任务调度",
+      "基于 Anthropic Agents SDK，轻量易改"
+    ],
+    "categories": [
+      "自动化",
+      "多智能体协作"
+    ],
+    "audience": "开发者与重度消息工具用户，用于把 AI 助手接入多聊天平台并自动化日常"
+  },
+  "googleworkspace/cli": {
+    "zhIntro": "一个 CLI 统管 Google Workspace（Drive/Gmail/Calendar/Sheets/Docs 等），结构化 JSON 输出，内置 40+ agent skills。",
+    "sellingPoints": [
+      "一条命令覆盖全部 Google Workspace API",
+      "结构化 JSON 输出，便于 agent 解析",
+      "内置 40+ agent skills 即用",
+      "支持多种鉴权方式含无头/CI 场景"
+    ],
+    "categories": [
+      "自动化",
+      "办公提效"
+    ],
+    "audience": "办公与开发者，用于让 AI agent 自动化操作 Google Workspace 各类应用"
+  },
+  "topoteretes/cognee": {
+    "zhIntro": "开源的 AI 记忆平台：为 agent 提供跨会话持久长期记忆，自托管知识图谱引擎。",
+    "sellingPoints": [
+      "开源可自托管的 AI 记忆平台",
+      "跨会话持久长期记忆",
+      "知识图谱引擎驱动",
+      "支持 Docker 一键部署"
+    ],
+    "categories": [
+      "AI基础设施与框架",
+      "文档与知识"
+    ],
+    "audience": "AI 应用开发者，用于给 agent 加上持久记忆与知识图谱"
+  },
+  "cathrynlavery/diagram-design": {
+    "zhIntro": "为 Claude Code/Codex/Pi 提供 38 种编辑级图表，自包含 HTML+SVG，无阴影无 Mermaid 粗制感。",
+    "sellingPoints": [
+      "38 种编辑级图表类型",
+      "自包含 HTML+SVG，无 Mermaid 粗制感",
+      "自动对比度检查与无障碍处理",
+      "支持品牌化与多客户端"
+    ],
+    "categories": [
+      "内容创作",
+      "开发辅助"
+    ],
+    "audience": "开发者与设计师，用于让 agent 产出专业、可编辑的图表"
+  },
+  "OthmanAdi/planning-with-files": {
+    "zhIntro": "为 AI 编码 agent 提供基于文件的持久计划：抗 /clear 与压缩、每轮重注入防上下文腐烂、确定性完成门。",
+    "sellingPoints": [
+      "计划落盘，抗 /clear 与上下文压缩",
+      "每轮重注入，对抗上下文腐烂",
+      "确定性完成门，防遗漏",
+      "3/3 盲测 A/B 全胜，跨 18+ 平台"
+    ],
+    "categories": [
+      "开发辅助",
+      "AI基础设施与框架"
+    ],
+    "audience": "长任务开发者，用于让 agent 在长流程中保持计划与进度不丢"
+  },
+  "virgiliojr94/book-to-skill": {
+    "zhIntro": "把任意技术书 PDF/文档集转成一个 agent skill，可边工作边学习与引用。",
+    "sellingPoints": [
+      "技术书/文档一键转成可引用 skill",
+      "边工作边学习，资料随用随查",
+      "跨 Copilot CLI/Amp/Claude Code 通用",
+      "支持发现循环，自动提炼要点"
+    ],
+    "categories": [
+      "文档与知识",
+      "开发辅助"
+    ],
+    "audience": "学习者与开发者，用于把技术书/文档沉淀成可检索的 agent 技能"
+  },
+  "phuryn/pm-skills": {
+    "zhIntro": "PM 技能市场：100+ 产品技能/命令/插件，覆盖发现→策略→执行→上线→增长全链路。",
+    "sellingPoints": [
+      "100+ 产品经理 agentic 技能",
+      "覆盖发现到增长全链路",
+      "支持 Claude Cowork/Codex/多助手",
+      "可按需组合，配套 PM Brain"
+    ],
+    "categories": [
+      "办公提效",
+      "开发辅助"
+    ],
+    "audience": "产品经理与创业者，用于用 AI 辅助产品决策与执行全流程"
+  },
+  "JimLiu/baoyu-skills": {
+    "zhIntro": "宝玉分享的 20+ 提效技能（含 baoyu-design 设计与内容技能），用于 Claude Code/Codex 等日常办公。",
+    "sellingPoints": [
+      "20+ 实用技能，按需安装",
+      "含设计与内容创作技能",
+      "提示按需安装避免上下文冗余",
+      "跨 Claude Code/Codex/OpenClaw 通用"
+    ],
+    "categories": [
+      "办公提效",
+      "内容创作"
+    ],
+    "audience": "知识工作者与内容创作者，用于提升日常 AI 办公效率"
+  },
+  "alirezarezvani/claude-skills": {
+    "zhIntro": "388 个生产级 Claude Code 技能与插件，覆盖工程/营销/产品/合规/C-level 等，适配 13 种 coding agent。",
+    "sellingPoints": [
+      "388 个生产级技能与插件",
+      "覆盖工程/营销/产品/合规/C-level",
+      "适配 13 种 coding agent",
+      "含 AEO 答案引擎优化与安全 hooks"
+    ],
+    "categories": [
+      "开发辅助",
+      "办公提效",
+      "其他"
+    ],
+    "audience": "企业与开发者，用于按领域扩展 coding agent 的专业能力"
+  },
+  "ayghri/i-have-adhd": {
+    "zhIntro": "让编码 agent 直给答案、少说废话的 ADHD 友好技能：行动优先、步骤编号，无需诊断即更高效。",
+    "sellingPoints": [
+      "行动优先、步骤编号，直接给出答案",
+      "去除“希望对你有帮助”等客套话",
+      "无需 ADHD 诊断，普通开发者也受益",
+      "兼容 Claude Code/Codex/Cursor 等主流 agent"
+    ],
+    "category": "开发辅助",
+    "audience": "开发者，用于让编码 agent 输出更直接、更好读的结果"
+  },
+  "agentskills/agentskills": {
+    "zhIntro": "Agent Skills 开放标准官方仓库：定义 SKILL.md 轻量技能格式、加载机制与跨 agent 复用规则，含完整规范与文档。",
+    "sellingPoints": [
+      "官方开放标准，定义轻量 SKILL.md 格式",
+      "渐进式披露，按需加载降低上下文开销",
+      "一次构建，跨不同 agent 复用",
+      "含完整规格说明与上手文档"
+    ],
+    "category": "AI基础设施与框架",
+    "audience": "开发者与 Agent 框架设计者，用于学习并落地 Agent Skills 标准"
+  },
+  "titanwings/distilly": {
+    "zhIntro": "把人的经验、判断、语气与工作方式蒸馏为可复用 Person Profile，供 AI agent/bot 使用并持续演化。",
+    "sellingPoints": [
+      "从消息/文档/访谈蒸馏可复用 Person Profile",
+      "保留经验、判断、语气与工作方式",
+      "适用同事、亲友、偶像等多类人物",
+      "基于来源、可随新资料持续演化"
+    ],
+    "category": "其他",
+    "audience": "知识保留者与 AI agent 使用者，用于把人的思维方式固化给 agent 复用"
+  },
+  "alibaba/open-code-review": {
+    "zhIntro": "阿里实战验证的代码审查技能：确定性流水线+LLM Agent 混合，输出精确行级评论，内置多语言安全规则。",
+    "sellingPoints": [
+      "确定性流水线+LLM Agent 混合架构",
+      "精确的行级代码评论",
+      "内置 NPE/线程安全/XSS/SQL 注入规则",
+      "经阿里规模化实战验证",
+      "兼容 OpenAI 与 Anthropic 模型"
+    ],
+    "category": "开发辅助",
+    "audience": "开发者与研发团队，用于合并前/CI 中的自动化代码审查"
+  },
+  "tt-a1i/archify": {
+    "zhIntro": "在对话中把代码库/系统描述变成可交互架构图：自包含 HTML+SVG，动效、可验证、支持多类图表与导出。",
+    "sellingPoints": [
+      "对话中把代码库变成可交互系统图",
+      "确定性编译，输出可信可验证",
+      "合并前支持 Before/Delta/After 对比",
+      "自包含 HTML，动效与多种导出格式",
+      "支持架构/流程/时序/数据流等多类图"
+    ],
+    "category": "开发辅助",
+    "audience": "开发者与架构师，用于在对话中生成并评审架构图"
+  },
+  "KKKKhazix/khazix-skills": {
+    "zhIntro": "数字生命卡兹克开源的日常 AI Skills 合集：目标定义、磁盘清理、AI 资讯、文档洁癖、研究与写作等实用技能。",
+    "sellingPoints": [
+      "作者亲测实用、开源即用",
+      "兼容 Claude Code/Codex 及 40+ agent",
+      "覆盖目标/清理/资讯/研究/写作多场景",
+      "写作技能复刻作者口吻写公众号长文"
+    ],
+    "category": "办公提效",
+    "audience": "使用 Claude Code/Codex 的开发者与内容创作者，用于日常提效与写作"
+  },
+  "teng-lin/notebooklm-py": {
+    "zhIntro": "NotebookLM（Gemini Notebook）非官方 Python API 与 agent 技能，提供网页端之外完整的程序化访问能力。",
+    "sellingPoints": [
+      "完整覆盖 NotebookLM 全部功能",
+      "提供网页 UI 之外的能力接口",
+      "支持 Python、CLI 与 AI agent 接入",
+      "可编程完成建笔记本/加资料/生成内容"
+    ],
+    "category": "文档与知识",
+    "audience": "开发者与研究者，用于以编程方式自动化 NotebookLM 的资料问答与内容生成"
+  },
+  "kubesphere/kubesphere": {
+    "zhIntro": "面向 Kubernetes 多云、数据中心与边缘管理的容器平台，提供插件式架构、全栈自动化运维与 DevOps 工作流。",
+    "sellingPoints": [
+      "面向 K8s 多云/数据中心/边缘的容器平台",
+      "插件即插即用，可集成第三方应用",
+      "全栈自动化 IT 运维与 DevOps 工作流",
+      "多租户架构，CNCF 云原生生态"
+    ],
+    "category": "其他",
+    "audience": "运维与平台工程师，用于 Kubernetes 多集群、多云与边缘环境管理"
+  },
+  "microsoft/SkillOpt": {
+    "zhIntro": "文本空间技能优化器：像训练神经网络那样，通过轨迹驱动编辑与验证门控更新，为冻结 LLM agent 训练可部署技能。",
+    "sellingPoints": [
+      "不改模型权重，纯文本空间训练技能",
+      "轨迹驱动编辑+验证门控更新",
+      "产出可部署的 best_skill.md 技能",
+      "面向自进化 agent 的技能优化框架"
+    ],
+    "category": "AI基础设施与框架",
+    "audience": "AI 研究者与 Agent 开发者，用于自动优化、训练可复用技能"
+  },
+  "alibaba/zvec": {
+    "zhIntro": "轻量极速的进程内向量数据库，嵌入式部署，用于 LLM 记忆与相似度检索，支持 FAISS/HNSW 索引。",
+    "sellingPoints": [
+      "轻量极速的进程内向量数据库",
+      "嵌入式部署，无需外部服务",
+      "面向 LLM 记忆与向量相似检索",
+      "提供 Python 与 npm 等语言包"
+    ],
+    "category": "AI基础设施与框架",
+    "audience": "开发者，用于在应用进程内做向量检索与 LLM 长记忆存储"
+  },
+  "wanshuiyin/Auto-claude-code-research-in-sleep": {
+    "zhIntro": "ARIS：纯 Markdown 的自主 ML 研究技能，跨模型评审循环、idea 发现与实验自动化，兼容任意 LLM agent。",
+    "sellingPoints": [
+      "纯 Markdown，无框架无锁定",
+      "跨模型评审循环自动化",
+      "idea 发现与实验自动化",
+      "兼容 Claude Code/Codex/OpenClaw 等"
+    ],
+    "categories": [
+      "自动化",
+      "数据分析"
+    ],
+    "audience": "AI 研究者，用于让 agent 自主跑论文评审、想法发现与实验"
+  },
+  "eigent-ai/eigent": {
+    "zhIntro": "开源 Cowork 桌面端：Claude Cowork/Codex 的本地免费替代，支持多 agent 协作与自动化。",
+    "sellingPoints": [
+      "开源本地部署，免费替代 Cowork",
+      "多 agent 协作与 Workforce 编排",
+      "模型无关，集成 MCP",
+      "含定时自动化与本地安全"
+    ],
+    "categories": [
+      "办公提效",
+      "AI基础设施与框架"
+    ],
+    "audience": "办公与开发者，用于本地运行多 agent 协作的桌面工作台"
+  },
+  "NVIDIA/SkillSpector": {
+    "zhIntro": "NVIDIA 出品的 AI agent 技能安全扫描器：安装前检测漏洞、恶意模式、提示注入、数据外泄与供应链风险。",
+    "sellingPoints": [
+      "安装前扫描技能安全风险",
+      "检测提示注入/数据外泄/恶意模式",
+      "覆盖 Claude Code/Codex/MCP 技能",
+      "支持 Docker 与 CLI，零依赖运行"
+    ],
+    "categories": [
+      "安全与合规",
+      "开发辅助"
+    ],
+    "audience": "开发者与安全团队，用于安装第三方技能前做安全审查"
+  },
+  "travisvn/awesome-claude-skills": {
+    "zhIntro": "精选的 Claude Skills、资源与工具清单，按官方/社区技能分类，专为定制 Claude 工作流。",
+    "sellingPoints": [
+      "精选 Claude Skills 与工具资源",
+      "按官方/社区技能分类导航",
+      "含技能工作原理与上手指南",
+      "社区持续维护"
+    ],
+    "categories": [
+      "其他",
+      "开发辅助"
+    ],
+    "audience": "Claude 用户，用于发现与挑选技能并定制工作流"
+  },
+  "yusufkaraaslan/Skill_Seekers": {
+    "zhIntro": "把文档站点、GitHub 仓库与 PDF 转成 Claude AI 技能，自动检测冲突，支持 22 种导出目标。",
+    "sellingPoints": [
+      "文档/仓库/PDF 一键转技能",
+      "自动检测技能冲突",
+      "支持 18 种来源与 22 种导出",
+      "AI 驱动项目扫描与结构化"
+    ],
+    "categories": [
+      "文档与知识",
+      "自动化"
+    ],
+    "audience": "开发者与知识管理者，用于把现有资料快速沉淀成 agent 技能"
+  },
+  "NevaMind-AI/memU": {
+    "zhIntro": "跨 agent 的个人记忆：以 Wiki 形式存储，跨会话/跨 agent/跨设备，自动提取技能。",
+    "sellingPoints": [
+      "跨 agent 的个人持久记忆",
+      "以 Wiki 形式存储，自托管",
+      "自动从对话提取技能",
+      "支持多桌面 coding agent 适配"
+    ],
+    "categories": [
+      "AI基础设施与框架",
+      "文档与知识"
+    ],
+    "audience": "多 agent 重度用户，用于让记忆在 Claude/Cursor/OpenClaw 等间共享"
+  },
+  "citrolabs/ego-lite": {
+    "zhIntro": "为 AI agent 打造的最快浏览器自动化工具：把已登录浏览器状态共享给 Codex/Claude Code，零成本零配置。",
+    "sellingPoints": [
+      "最快浏览器自动化，专为 agent",
+      "共享已登录浏览器状态不扰民",
+      "零成本零配置",
+      "跨 Claude Code/Codex 通用"
+    ],
+    "categories": [
+      "自动化",
+      "开发辅助"
+    ],
+    "audience": "开发者，用于让 agent 安全复用已登录浏览器做自动化"
+  },
+  "AgriciDaniel/claude-obsidian": {
+    "zhIntro": "Obsidian + Claude Code 的自组织 AI 第二大脑：丢入任意来源，自动读取、链接、归档为 Markdown 知识图谱。",
+    "sellingPoints": [
+      "Obsidian + Claude Code 的 AI 第二大脑",
+      "自动读取/链接/归档为知识图谱",
+      "纯 Markdown，数据自持",
+      "15 个技能一套体系，越用越有用"
+    ],
+    "categories": [
+      "文档与知识",
+      "办公提效"
+    ],
+    "audience": "知识工作者，用于把零散资料沉淀成自有的连接式知识库"
+  },
+  "Orchestra-Research/AI-Research-SKILLs": {
+    "zhIntro": "Orchestra Research 维护的 98 个 AI 研究与工程技能库：从想法到论文，让 agent 全马力做 AI 研究。",
+    "sellingPoints": [
+      "98 个 AI 研究工程技能",
+      "覆盖模型架构/微调/可解释性等 23 类",
+      "从想法到论文的全流程",
+      "兼容 Claude Code/Codex/Gemini"
+    ],
+    "categories": [
+      "数据分析",
+      "开发辅助"
+    ],
+    "audience": "AI 研究者，用于让 agent 自主开展 AI 研究全流程"
+  },
+  "nidhinjs/prompt-master": {
+    "zhIntro": "为任意 AI 工具写出精准 prompt 的 Claude 技能：零 token 浪费、完整上下文与记忆保留。",
+    "sellingPoints": [
+      "为任意 AI 工具生成精准 prompt",
+      "零 token/额度浪费",
+      "13 套模板自动选择",
+      "检测 37 种烧额度模式"
+    ],
+    "categories": [
+      "办公提效",
+      "内容创作"
+    ],
+    "audience": "所有 AI 工具用户，用于一次写出精准 prompt 省钱省时"
+  },
+  "russelleNVy/three-man-team": {
+    "zhIntro": "结构化 3-agent 开发协作技能：Architect/Builder/Reviewer 三角色分工，manifest 单一配置、交接目录自动维护。",
+    "sellingPoints": [
+      "架构-编码-评审流水线分工",
+      "manifest.md 单一配置源",
+      "角色文件与交接目录自动维护"
+    ],
+    "categories": [
+      "多智能体协作",
+      "开发辅助"
+    ],
+    "audience": "开发者，用于用多 agent 流水线分工完成项目",
+    "tokenOptimized": false
+  },
+  "nadimtuhin/claude-token-optimizer": {
+    "zhIntro": "停止让 Claude Code 上下文被旧文档占据：裁剪文档输入，token 用量最高降 90%，让 Claude 聚焦实际代码。",
+    "sellingPoints": [
+      "token 用量最高降 90%",
+      "上下文只留有效代码",
+      "npm 一键安装"
+    ],
+    "categories": [
+      "开发辅助"
+    ],
+    "audience": "Claude Code 用户，用于减少长文档占用上下文导致的 token 浪费",
+    "tokenOptimized": true
+  },
+  "ooples/token-optimizer-mcp": {
+    "zhIntro": "Token Optimizer MCP：压缩上下文、保留结论，跨 16 个编码客户端审计每次 token 节省。",
+    "sellingPoints": [
+      "压缩上下文保留结论",
+      "跨 16 个 coding 客户端审计",
+      "MCP 即插即用"
+    ],
+    "categories": [
+      "开发辅助"
+    ],
+    "audience": "多客户端开发者，用于审计并减少 coding agent 的 token 消耗",
+    "tokenOptimized": true
+  },
+  "Kulaxyz/token-diet": {
+    "zhIntro": "常驻 token 效率技能：全程裁剪回复/文档/测试/代码/工具调用，平均账单降 31%、输出降 30-81% 而不丢正确性。",
+    "sellingPoints": [
+      "平均省 31% token 账单",
+      "输出降 30-81% 不丢正确性",
+      "一键安装兼容 5 款 agent"
+    ],
+    "categories": [
+      "开发辅助"
+    ],
+    "audience": "重度使用 coding agent 的开发者，用于持续压低 token 开销",
+    "tokenOptimized": true
+  },
+  "KinetiNode/claude-fable-5-system-prompt-clean": {
+    "zhIntro": "精简版 Claude Fable 5/Mythos 5 系统提示词：剔除 Claude 专属基础设施，跨模型适用且更省 token。",
+    "sellingPoints": [
+      "提示词精简省 token",
+      "兼容 Claude/ChatGPT/Gemini/DeepSeek/Qwen",
+      "保留原始核心行为"
+    ],
+    "categories": [
+      "开发辅助"
+    ],
+    "audience": "自建系统提示词的用户，用于获得省 token 的跨模型版本",
+    "tokenOptimized": true
+  },
+  "Rose22/openlumara": {
+    "zhIntro": "Python 本地优先的轻量 agent 框架：系统提示词最小约 4000 token，模块化、快速、适合本地与 API 使用。",
+    "sellingPoints": [
+      "系统提示词最小约 4000 token",
+      "本地优先、轻量模块化",
+      "支持 WebUI/CLI/MCP"
+    ],
+    "categories": [
+      "AI基础设施与框架"
+    ],
+    "audience": "本地 AI 开发者，用于搭建轻量省 token 的 agent 应用",
+    "tokenOptimized": false
+  },
+  "angelnicolasc/graymatter": {
+    "zhIntro": "30 秒给 AI agent 装持久记忆：跨会话上下文压缩回注，保留记忆的同时减少约 90% token 消耗。",
+    "sellingPoints": [
+      "30 秒安装持久记忆",
+      "跨会话上下文保留",
+      "减少约 90% token 消耗"
+    ],
+    "categories": [
+      "AI基础设施与框架"
+    ],
+    "audience": "多会话 AI 用户，用于保留跨会话记忆",
+    "tokenOptimized": false
+  },
+  "bassimeledath/dispatch": {
+    "zhIntro": "/dispatch 技能：把会话变成轻量编排器，任务派发给各自拥有完整上下文的后台 agent，有效上下文窗口扩大 10 倍。",
+    "sellingPoints": [
+      "有效上下文窗口扩大 10 倍",
+      "后台并行不占主会话",
+      "单命令触发"
+    ],
+    "categories": [
+      "开发辅助"
+    ],
+    "audience": "长任务开发者，用于避免上下文塞满、提升并行处理",
+    "tokenOptimized": true
+  },
+  "styler-ai/ProjectAtlas": {
+    "zhIntro": "Rust 本地仓库智能：SQLite 持久地图引导 agent 直达目标代码，没打开的文件不耗 token。",
+    "sellingPoints": [
+      "仓库地图直达代码省 token",
+      "Rust 高性能本地索引",
+      "MCP 兼容多 coding agent"
+    ],
+    "categories": [
+      "开发辅助"
+    ],
+    "audience": "大型代码库开发者，用于让 agent 少读无关文件、省 token",
+    "tokenOptimized": true
+  },
+  "get-zeked/perplexity-super-skills": {
+    "zhIntro": "12 个 Perplexity 超级技能合集：融合 Perplexity Computer 内置技能与 Claude Code 能力的统一技能文件。",
+    "sellingPoints": [
+      "12 个超级技能一次获取",
+      "融合 Perplexity+Claude Code 能力",
+      "单文件统一引用"
+    ],
+    "categories": [
+      "skills精选合集"
+    ],
+    "audience": "AI 工具用户，用于一站获取融合版超级技能",
+    "tokenOptimized": false
+  }
+}
