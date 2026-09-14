@@ -737,5 +737,37 @@
     ],
     "audience": "AI 工具用户，用于一站获取融合版超级技能",
     "tokenOptimized": false
+  },
+  "pascalorg/editor": {
+    "zhIntro": "Pascal Editor 是一款开源本地优先的 3D 建筑编辑器，支持浏览器与 CLI 运行，并通过 MCP 连接 AI 智能体。",
+    "sellingPoints": [
+      "开源本地优先的 3D 建筑编辑器",
+      "基于 React Three Fiber 与 WebGPU 构建",
+      "提供 CLI 与 MCP 工具连接 AI 智能体",
+      "一条命令即可本地运行，无需克隆仓库",
+      "项目数据持久保存在本地数据库"
+    ],
+    "categories": [
+      "开发辅助",
+      "AI基础设施与框架"
+    ],
+    "audience": "适合建筑师、3D 建模开发者以及希望用 AI 智能体操作建筑模型的用户。",
+    "tokenOptimized": false
+  },
+  "reactive-resume/reactive-resume": {
+    "zhIntro": "Reactive Resume 是一款免费开源的简历构建工具，注重隐私安全，支持自定义与便携部署，可轻松创建、更新和分享简历。",
+    "sellingPoints": [
+      "完全开源且永久免费",
+      "注重隐私与安全",
+      "高度可定制",
+      "支持便携部署",
+      "提供 Docker 镜像"
+    ],
+    "categories": [
+      "办公提效",
+      "内容创作"
+    ],
+    "audience": "需要创建、更新和分享简历的求职者与职场人士",
+    "tokenOptimized": false
   }
 }
