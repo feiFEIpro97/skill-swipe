@@ -769,5 +769,20 @@
     ],
     "audience": "需要创建、更新和分享简历的求职者与职场人士",
     "tokenOptimized": false
+  },
+  "PleasePrompto/google-ai-mode-skill": {
+    "zhIntro": "为 Claude Code 提供免费 Google AI Mode 搜索的 skill，零配置、持久浏览器配置、查询优化，带引用来源。",
+    "sellingPoints": [
+      "接入 Google AI Mode，聚合百源生成带引用答案",
+      "零配置即可使用，浏览器配置持久保存",
+      "查询优化，提升网络研究效率",
+      "仅面向 Claude Code CLI 用户"
+    ],
+    "categories": [
+      "开发辅助",
+      "AI基础设施与框架"
+    ],
+    "audience": "使用 Claude Code CLI 并需要高质量联网调研的开发者",
+    "tokenOptimized": false
   }
 }
