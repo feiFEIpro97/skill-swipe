@@ -784,5 +784,22 @@
     ],
     "audience": "使用 Claude Code CLI 并需要高质量联网调研的开发者",
     "tokenOptimized": false
+  },
+  "LearnPrompt/cc-harness-skills": {
+    "zhIntro": "从公开 CC 编码智能体代码库提炼的可移植技能集，涵盖记忆、验证、多智能体协作与上下文压缩。",
+    "sellingPoints": [
+      "六大技能包，覆盖记忆与验证",
+      "支持 Claude Code、Codex、OpenClaw",
+      "一行命令即可全局安装",
+      "不依赖私有运行时内部实现",
+      "含上下文压缩与多智能体协作"
+    ],
+    "categories": [
+      "skills精选合集",
+      "AI基础设施与框架",
+      "多智能体协作"
+    ],
+    "audience": "使用 Claude Code、Codex 或 OpenClaw 的编码智能体开发者与团队。",
+    "tokenOptimized": false
   }
 }
