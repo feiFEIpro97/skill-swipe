@@ -801,5 +801,37 @@
     ],
     "audience": "使用 Claude Code、Codex 或 OpenClaw 的编码智能体开发者与团队。",
     "tokenOptimized": false
+  },
+  "career-ops-hq/career-ops": {
+    "zhIntro": "开源 AI 求职代理，扫描招聘信息并按 CV 打分，定制 ATS 简历与求职信，本地运行于 AI 编码 CLI。",
+    "sellingPoints": [
+      "扫描招聘板并逐条按 CV 打分 1-5",
+      "生成 ATS 友好简历与求职信",
+      "提供面试准备与申请追踪器",
+      "本地运行于 Claude Code 等 CLI"
+    ],
+    "categories": [
+      "办公提效",
+      "自动化"
+    ],
+    "audience": "正在求职、希望批量筛选职位并优化申请材料的求职者。",
+    "tokenOptimized": false
+  },
+  "activeing123/mcptoon": {
+    "zhIntro": "mcptoon 是零依赖 CLI，统一管理 MCP 工具与 agent 技能，压缩上下文并大幅节省 token。",
+    "sellingPoints": [
+      "零依赖纯 Python CLI，仅 342KB",
+      "工具上下文压缩约 90%，实测省 99.2% token",
+      "一份配置适配 Claude Code、Codex、Cursor 等",
+      "连接 17000+ MCP 工具注册表，按需搜索",
+      "无需预装，随时删除不留负担"
+    ],
+    "categories": [
+      "AI基础设施与框架",
+      "开发辅助",
+      "skills精选合集"
+    ],
+    "audience": "需要为各类 AI 编码 agent 统一管理 MCP 工具与技能并优化 token 占用的开发者",
+    "tokenOptimized": true
   }
 }
