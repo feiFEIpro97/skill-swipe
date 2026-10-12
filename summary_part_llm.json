@@ -833,5 +833,55 @@
     ],
     "audience": "需要为各类 AI 编码 agent 统一管理 MCP 工具与技能并优化 token 占用的开发者",
     "tokenOptimized": true
+  },
+  "coreyhaines31/marketingskills": {
+    "zhIntro": "面向 Claude Code 等 AI 代理的营销技能合集，覆盖转化优化、文案、SEO、分析与增长工程。",
+    "sellingPoints": [
+      "覆盖 CRO、文案、SEO、分析与增长工程",
+      "兼容 Claude Code、Codex、Cursor 等代理",
+      "遵循 Agent Skills 规范，可即插即用",
+      "MIT 开源免费，欢迎社区贡献"
+    ],
+    "categories": [
+      "skills精选合集",
+      "内容创作",
+      "数据分析"
+    ],
+    "audience": "希望用 AI 编码代理辅助营销工作的技术型营销人员和创始人。",
+    "tokenOptimized": false
+  },
+  "morluto/rea": {
+    "zhIntro": "REA 是一个面向逆向工程的 MCP 工具，让 AI 智能体从应用行为一路分析到原生二进制文件。",
+    "sellingPoints": [
+      "统一 MCP 接口，覆盖二进制与应用逆向",
+      "可深入原生二进制层面理解功能实现",
+      "支持 Claude Code、Codex 等智能体",
+      "提供 CLI 与 MCP 工具目录",
+      "MIT 开源，多语言文档齐全"
+    ],
+    "categories": [
+      "开发辅助",
+      "安全与合规",
+      "AI基础设施与框架"
+    ],
+    "audience": "适合从事逆向工程、二进制分析与安全研究的开发者及 AI 智能体用户。",
+    "tokenOptimized": false
+  },
+  "feder-cr/invisible_dots": {
+    "zhIntro": "invisible_dots 是 OpenAI Dots、Grok Bot 的开源自托管替代品，可在独立虚拟电脑上自动执行任务并规避反机器人检测。",
+    "sellingPoints": [
+      "开源自托管，替代 OpenAI Dots 等产品",
+      "每个 Dot 独占一台虚拟电脑运行",
+      "可自动执行任务并沉淀为技能",
+      "内置反检测浏览器，规避反机器人系统",
+      "需 Node 24+、Go 1.25+ 与 OpenRouter 密钥"
+    ],
+    "categories": [
+      "自动化",
+      "AI基础设施与框架",
+      "多智能体协作"
+    ],
+    "audience": "需要自托管 AI 代理自动执行网页与桌面任务、并规避反机器人检测的开发者和团队。",
+    "tokenOptimized": false
   }
 }
