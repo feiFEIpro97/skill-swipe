@@ -883,5 +883,53 @@
     ],
     "audience": "需要自托管 AI 代理自动执行网页与桌面任务、并规避反机器人检测的开发者和团队。",
     "tokenOptimized": false
+  },
+  "paperclipai/paperclip": {
+    "zhIntro": "Paperclip 是一款开源应用，用于在工作场景中管理和编排 AI 智能体，帮助团队统一调度多个 agent 完成任务。",
+    "sellingPoints": [
+      "开源应用，MIT 许可",
+      "统一管理工作中 AI 智能体",
+      "支持智能体编排与技能",
+      "面向 AI 工程实践"
+    ],
+    "categories": [
+      "多智能体协作",
+      "AI基础设施与框架",
+      "办公提效"
+    ],
+    "audience": "需要在工作中管理和编排多个 AI 智能体的团队与开发者",
+    "tokenOptimized": false
+  },
+  "Leonxlnx/taste-skill": {
+    "zhIntro": "为编码智能体注入审美品味的 Agent Skills，通过艺术指导、参考图和浏览器检查，避免生成千篇一律的 AI 页面。",
+    "sellingPoints": [
+      "提供艺术指导与参考图，提升前端设计质感",
+      "内置浏览器检查，视觉验证生成页面",
+      "反 AI 味，告别通用模板化界面",
+      "兼容 Codex、Cursor、Claude 等编码智能体"
+    ],
+    "categories": [
+      "开发辅助",
+      "skills精选合集"
+    ],
+    "audience": "使用编码智能体开发前端、追求高品质 UI 设计的开发者",
+    "tokenOptimized": false
+  },
+  "DerekYRC/mini-claude-code": {
+    "zhIntro": "mini-claude-code 是简化版 Java 编程 Agent，抽取 Agent Harness 核心机制，帮助快速理解编码 Agent 原理。",
+    "sellingPoints": [
+      "按章节拆解 Agent 核心机制，每章独立分支",
+      "代码精简，保留 Agent Loop 等核心功能",
+      "覆盖权限控制、Hooks、Subagent 等机制",
+      "含上下文压缩、记忆、多 Agent 协作",
+      "Java 17 + Maven 构建，易于上手"
+    ],
+    "categories": [
+      "AI基础设施与框架",
+      "开发辅助",
+      "多智能体协作"
+    ],
+    "audience": "想深入理解编码 Agent 核心原理的 Java 开发者与 AI 应用学习者",
+    "tokenOptimized": false
   }
 }
