@@ -931,5 +931,21 @@
     ],
     "audience": "想深入理解编码 Agent 核心原理的 Java 开发者与 AI 应用学习者",
     "tokenOptimized": false
+  },
+  "FulAppiOS/Agent-Quest": {
+    "zhIntro": "Agent-Quest 是实时游戏化监控面板，把 Claude Code 与 Codex 智能体会话可视化为中世纪奇幻村庄中的英雄。",
+    "sellingPoints": [
+      "智能体会话实时化为村庄英雄，动作对应建筑",
+      "展示上下文窗口占用、技能与插件遥测",
+      "支持子智能体家族关系展示",
+      "一键导出会话供其他 AI 审阅",
+      "内置地图编辑器可自定义村庄"
+    ],
+    "categories": [
+      "开发辅助",
+      "AI基础设施与框架"
+    ],
+    "audience": "使用 Claude Code CLI 或 Codex 的开发者与 AI 智能体重度用户",
+    "tokenOptimized": false
   }
 }
