@@ -947,5 +947,53 @@
     ],
     "audience": "使用 Claude Code CLI 或 Codex 的开发者与 AI 智能体重度用户",
     "tokenOptimized": false
+  },
+  "TrNgTien/vfs": {
+    "zhIntro": "vfs 通过 AST 提取导出函数签名并剥离函数体，大幅减少 AI 代理读取代码时的 token 消耗，支持多种语言。",
+    "sellingPoints": [
+      "剥离函数体仅保留签名，节省60-70% token",
+      "单命令或 MCP 调用替代 grep 全量读取",
+      "提供精确 file:line 指针，定位函数更高效",
+      "单一 Go 二进制，零网络访问，支持多语言"
+    ],
+    "categories": [
+      "开发辅助",
+      "AI基础设施与框架"
+    ],
+    "audience": "使用 Cursor、Claude Desktop 等 AI 编程工具的开发者",
+    "tokenOptimized": true
+  },
+  "pbakaus/impeccable": {
+    "zhIntro": "为编码智能体提供设计词汇的AI技能，用polish、bolder、critique、audit等指令引导设计并识别AI味。",
+    "sellingPoints": [
+      "提供polish、bolder等设计指令词",
+      "用critique和audit审查设计质量",
+      "在交付前识别并拦截AI味设计",
+      "支持Claude Code、Cursor等众多编码工具",
+      "一条npx命令即可安装使用"
+    ],
+    "categories": [
+      "开发辅助",
+      "内容创作"
+    ],
+    "audience": "使用AI编码工具开发前端界面、希望提升设计品味的开发者",
+    "tokenOptimized": false
+  },
+  "alchaincyf/huashu-design": {
+    "zhIntro": "Huashu Design 是一款跨 agent 的 HTML 原生设计技能，一句话即可产出网页、App 原型、可编辑 PPTX、动画与信息图。",
+    "sellingPoints": [
+      "一句话 prompt 即可交付大厂级设计成品",
+      "六张缩略图挑三个方向，避免 AI 味",
+      "84 种带样张风格库，覆盖 App 与东亚分区",
+      "内置设计体检与外观账本，越用越懂你",
+      "跨 agent 通用，支持 Claude Code、Cursor、Codex"
+    ],
+    "categories": [
+      "内容创作",
+      "办公提效",
+      "开发辅助"
+    ],
+    "audience": "需要在 agent 中快速产出可交付设计稿的产品、设计与开发人员",
+    "tokenOptimized": false
   }
 }
